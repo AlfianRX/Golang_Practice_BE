@@ -6,4 +6,5 @@ import (
 
 func RouteInit(route *mux.Router) {
 	TodoRoutes(route)
+	UserRoutes(route)
 }
